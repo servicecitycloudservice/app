@@ -17,7 +17,7 @@ signInForm.addEventListener('submit', async e => {
       password
     )
     console.log(credential)
-    window.location.href = "app/pages/home/index.html";
+    window.location.href = "app/pages/index.html";
 
     const modal = bootstrap.modal.getInstance(document.querySelector('#loginModal'))
     modal.hide()

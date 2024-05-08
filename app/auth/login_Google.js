@@ -23,7 +23,7 @@ import { getAuth, signInWithPopup, GoogleAuthProvider } from "https://www.gstati
       const credential = GoogleAuthProvider.credentialFromResult(result);
       const user = result.user;
       console.log(user);
-      window.location.href = "app/pages/home/index.html";
+      window.location.href = "app/pages/index.html";
     }).catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
