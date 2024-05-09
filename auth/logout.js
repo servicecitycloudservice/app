@@ -1,5 +1,5 @@
 import { signOut } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
-import { auth } from "../firebase.js";
+import { auth } from "../firebaseConfig.js";
 
 export const logout = document.querySelector("#logout");
 
