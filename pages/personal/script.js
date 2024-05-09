@@ -1,9 +1,5 @@
 import { push, ref, onValue } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js";
-
-// Initialize Firebase
-import { getDatabase } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js";
-import { app } from "../../environments/firebaseConfig.js";
-const database = getDatabase(app);
+import { database } from "../../environments/firebaseConfig.js";
 
 // Import Modules
 import { changeSelectEvent } from "../../modules/tabla/changeSelectEvent.js";
