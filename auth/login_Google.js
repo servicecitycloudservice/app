@@ -2,7 +2,6 @@ import { signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/fir
 import { auth } from '../environments/firebaseConfig.js';
 
 // Initialize Firebase
-const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
 // Google Login
