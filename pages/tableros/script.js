@@ -8,7 +8,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js";
 
 // Initialize Firebase
-import { app } from "../../../../environments/firebaseConfig.js";
+import { app } from "../../environments/firebaseConfig.js";
 const database = getDatabase(app);
 
 const form = document.querySelector("form");
